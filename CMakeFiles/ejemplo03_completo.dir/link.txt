@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ejemplo03_completo.dir/ejemplo03_completo.cpp.o -o ejemplo03_completo 

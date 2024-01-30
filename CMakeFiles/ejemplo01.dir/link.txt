@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ejemplo01.dir/ejemplo01.cpp.o CMakeFiles/ejemplo01.dir/MPIstudy.cpp.o CMakeFiles/ejemplo01.dir/ejemplo_matrices.cpp.o -o ejemplo01 

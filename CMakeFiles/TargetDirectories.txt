@@ -1,0 +1,4 @@
+/workspace/MPI2324Study/CMakeFiles/ejemplo01.dir
+/workspace/MPI2324Study/CMakeFiles/ejemplo03_completo.dir
+/workspace/MPI2324Study/CMakeFiles/edit_cache.dir
+/workspace/MPI2324Study/CMakeFiles/rebuild_cache.dir
