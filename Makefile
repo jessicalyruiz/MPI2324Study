@@ -190,6 +190,30 @@ ejemplo01.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ejemplo01.dir/build.make CMakeFiles/ejemplo01.dir/ejemplo01.cpp.s
 .PHONY : ejemplo01.cpp.s
 
+ejemplo02.o: ejemplo02.cpp.o
+.PHONY : ejemplo02.o
+
+# target to build an object file
+ejemplo02.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ejemplo01.dir/build.make CMakeFiles/ejemplo01.dir/ejemplo02.cpp.o
+.PHONY : ejemplo02.cpp.o
+
+ejemplo02.i: ejemplo02.cpp.i
+.PHONY : ejemplo02.i
+
+# target to preprocess a source file
+ejemplo02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ejemplo01.dir/build.make CMakeFiles/ejemplo01.dir/ejemplo02.cpp.i
+.PHONY : ejemplo02.cpp.i
+
+ejemplo02.s: ejemplo02.cpp.s
+.PHONY : ejemplo02.s
+
+# target to generate assembly for a file
+ejemplo02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ejemplo01.dir/build.make CMakeFiles/ejemplo01.dir/ejemplo02.cpp.s
+.PHONY : ejemplo02.cpp.s
+
 ejemplo03_completo.o: ejemplo03_completo.cpp.o
 .PHONY : ejemplo03_completo.o
 
@@ -254,6 +278,9 @@ help:
 	@echo "... ejemplo01.o"
 	@echo "... ejemplo01.i"
 	@echo "... ejemplo01.s"
+	@echo "... ejemplo02.o"
+	@echo "... ejemplo02.i"
+	@echo "... ejemplo02.s"
 	@echo "... ejemplo03_completo.o"
 	@echo "... ejemplo03_completo.i"
 	@echo "... ejemplo03_completo.s"

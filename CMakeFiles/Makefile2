@@ -83,12 +83,12 @@ clean: CMakeFiles/ejemplo03_completo.dir/clean
 CMakeFiles/ejemplo01.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ejemplo01.dir/build.make CMakeFiles/ejemplo01.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ejemplo01.dir/build.make CMakeFiles/ejemplo01.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspace/MPI2324Study/CMakeFiles --progress-num=1,2,3,4 "Built target ejemplo01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspace/MPI2324Study/CMakeFiles --progress-num=1,2,3,4,5 "Built target ejemplo01"
 .PHONY : CMakeFiles/ejemplo01.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ejemplo01.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/MPI2324Study/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/MPI2324Study/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ejemplo01.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspace/MPI2324Study/CMakeFiles 0
 .PHONY : CMakeFiles/ejemplo01.dir/rule
@@ -109,7 +109,7 @@ CMakeFiles/ejemplo01.dir/clean:
 CMakeFiles/ejemplo03_completo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ejemplo03_completo.dir/build.make CMakeFiles/ejemplo03_completo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ejemplo03_completo.dir/build.make CMakeFiles/ejemplo03_completo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspace/MPI2324Study/CMakeFiles --progress-num=5,6 "Built target ejemplo03_completo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspace/MPI2324Study/CMakeFiles --progress-num=6,7 "Built target ejemplo03_completo"
 .PHONY : CMakeFiles/ejemplo03_completo.dir/all
 
 # Build rule for subdir invocation for target.

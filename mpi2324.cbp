@@ -23,7 +23,10 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -f &quot;/workspace/MPI2324Study/Makefile&quot;  VERBOSE=1 ejemplo01"/>
 					<CompileFile command="/usr/bin/gmake -f &quot;/workspace/MPI2324Study/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -37,7 +40,10 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -f &quot;/workspace/MPI2324Study/Makefile&quot;  VERBOSE=1 ejemplo01/fast"/>
 					<CompileFile command="/usr/bin/gmake -f &quot;/workspace/MPI2324Study/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -51,7 +57,10 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -f &quot;/workspace/MPI2324Study/Makefile&quot;  VERBOSE=1 ejemplo03_completo"/>
 					<CompileFile command="/usr/bin/gmake -f &quot;/workspace/MPI2324Study/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -65,7 +74,10 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/openmpi/include/openmpi"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/gmake -f &quot;/workspace/MPI2324Study/Makefile&quot;  VERBOSE=1 ejemplo03_completo/fast"/>
 					<CompileFile command="/usr/bin/gmake -f &quot;/workspace/MPI2324Study/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -98,6 +110,9 @@
 			<Option target="ejemplo01"/>
 		</Unit>
 		<Unit filename="/workspace/MPI2324Study/ejemplo01.cpp">
+			<Option target="ejemplo01"/>
+		</Unit>
+		<Unit filename="/workspace/MPI2324Study/ejemplo02.cpp">
 			<Option target="ejemplo01"/>
 		</Unit>
 		<Unit filename="/workspace/MPI2324Study/ejemplo03_completo.cpp">

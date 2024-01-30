@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/workspace/MPI2324Study/MPIstudy.cpp" "CMakeFiles/ejemplo01.dir/MPIstudy.cpp.o" "gcc" "CMakeFiles/ejemplo01.dir/MPIstudy.cpp.o.d"
   "/workspace/MPI2324Study/ejemplo01.cpp" "CMakeFiles/ejemplo01.dir/ejemplo01.cpp.o" "gcc" "CMakeFiles/ejemplo01.dir/ejemplo01.cpp.o.d"
+  "/workspace/MPI2324Study/ejemplo02.cpp" "CMakeFiles/ejemplo01.dir/ejemplo02.cpp.o" "gcc" "CMakeFiles/ejemplo01.dir/ejemplo02.cpp.o.d"
   "/workspace/MPI2324Study/ejemplo_matrices.cpp" "CMakeFiles/ejemplo01.dir/ejemplo_matrices.cpp.o" "gcc" "CMakeFiles/ejemplo01.dir/ejemplo_matrices.cpp.o.d"
   )
 

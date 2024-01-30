@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/ejemplo03_completo.dir/ejemplo03_completo.cpp.o -o ejemplo03_completo 
+/usr/bin/c++ -g CMakeFiles/ejemplo03_completo.dir/ejemplo03_completo.cpp.o -o ejemplo03_completo  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 

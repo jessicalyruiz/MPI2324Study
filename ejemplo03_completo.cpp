@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <mpi.h>
+#include <memory>
 
 #define MAX_ITEMS   101
 

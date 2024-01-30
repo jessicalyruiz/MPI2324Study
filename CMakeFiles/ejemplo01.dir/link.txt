@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/ejemplo01.dir/ejemplo01.cpp.o CMakeFiles/ejemplo01.dir/MPIstudy.cpp.o CMakeFiles/ejemplo01.dir/ejemplo_matrices.cpp.o -o ejemplo01 
+/usr/bin/c++ -g CMakeFiles/ejemplo01.dir/ejemplo01.cpp.o CMakeFiles/ejemplo01.dir/MPIstudy.cpp.o CMakeFiles/ejemplo01.dir/ejemplo_matrices.cpp.o CMakeFiles/ejemplo01.dir/ejemplo02.cpp.o -o ejemplo01  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 

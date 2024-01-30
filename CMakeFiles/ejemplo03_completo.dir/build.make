@@ -92,6 +92,8 @@ ejemplo03_completo_EXTERNAL_OBJECTS =
 
 ejemplo03_completo: CMakeFiles/ejemplo03_completo.dir/ejemplo03_completo.cpp.o
 ejemplo03_completo: CMakeFiles/ejemplo03_completo.dir/build.make
+ejemplo03_completo: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so
+ejemplo03_completo: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
 ejemplo03_completo: CMakeFiles/ejemplo03_completo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspace/MPI2324Study/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ejemplo03_completo"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ejemplo03_completo.dir/link.txt --verbose=$(VERBOSE)

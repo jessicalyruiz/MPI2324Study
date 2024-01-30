@@ -1372,3 +1372,102 @@ events:
         
       exitCode: 2
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/ide-desktop/clion/backend/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/ide-desktop/clion/backend/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/ide-desktop/clion/backend/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-sE2zEi"
+      binary: "/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-sE2zEi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-sE2zEi'
+        
+        Run Build Command(s): /ide-desktop/clion/backend/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a1cf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6a1cf.dir/build.make CMakeFiles/cmTC_6a1cf.dir/build
+        gmake[1]: Entering directory '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-sE2zEi'
+        Building C object CMakeFiles/cmTC_6a1cf.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -fdiagnostics-color=always -o CMakeFiles/cmTC_6a1cf.dir/test_mpi.c.o -c /workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-sE2zEi/test_mpi.c
+        Linking C executable cmTC_6a1cf
+        /ide-desktop/clion/backend/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a1cf.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6a1cf.dir/test_mpi.c.o -o cmTC_6a1cf  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-sE2zEi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/ide-desktop/clion/backend/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/ide-desktop/clion/backend/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/ide-desktop/clion/backend/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-ZyGgK2"
+      binary: "/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-ZyGgK2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-ZyGgK2'
+        
+        Run Build Command(s): /ide-desktop/clion/backend/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_07486/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_07486.dir/build.make CMakeFiles/cmTC_07486.dir/build
+        gmake[1]: Entering directory '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-ZyGgK2'
+        Building CXX object CMakeFiles/cmTC_07486.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/cmTC_07486.dir/test_mpi.cpp.o -c /workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-ZyGgK2/test_mpi.cpp
+        Linking CXX executable cmTC_07486
+        /ide-desktop/clion/backend/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07486.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_07486.dir/test_mpi.cpp.o -o cmTC_07486  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-ZyGgK2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/ide-desktop/clion/backend/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/ide-desktop/clion/backend/bin/cmake/linux/x64/share/cmake-3.27/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-oTZp1y"
+      binary: "/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-oTZp1y"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-oTZp1y'
+        
+        Run Build Command(s): /ide-desktop/clion/backend/bin/cmake/linux/x64/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6a07d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6a07d.dir/build.make CMakeFiles/cmTC_6a07d.dir/build
+        gmake[1]: Entering directory '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-oTZp1y'
+        Building CXX object CMakeFiles/cmTC_6a07d.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++14 -fdiagnostics-color=always -o CMakeFiles/cmTC_6a07d.dir/test_mpi.cpp.o -c /workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-oTZp1y/test_mpi.cpp
+        Linking CXX executable cmTC_6a07d
+        /ide-desktop/clion/backend/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a07d.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_6a07d.dir/test_mpi.cpp.o -o cmTC_6a07d  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[1]: Leaving directory '/workspace/MPI2324Study/CMakeFiles/CMakeScratch/TryCompile-oTZp1y'
+        
+      exitCode: 0
+...
